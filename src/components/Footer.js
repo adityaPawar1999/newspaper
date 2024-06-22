@@ -12,9 +12,11 @@ const Footer = () => {
           </div>
           <div>
             <ul className="flex space-x-4">
-              <li><a href="#" className="hover:text-blue-500">News</a></li>
-              <li><a href="#" className="hover:text-blue-500">Opinion</a></li>
-              <li><a href="#" className="hover:text-blue-500">Most Popular</a></li>
+              <li>home</li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
             </ul>
           </div>
         </div>

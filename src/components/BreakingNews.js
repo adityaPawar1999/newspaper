@@ -16,9 +16,11 @@ const BreakingNews = () => {
           <div className="md:w-1/3 md:pl-4">
             <h4 className="text-xl font-semibold mb-4">Daily Feed</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-blue-500">How to be as Productive as a Google Employee</a></li>
-              <li><a href="#" className="hover:text-blue-500">The Most Fascinating Show? The Net Trying to Fix Itself</a></li>
-              <li><a href="#" className="hover:text-blue-500">Liverpool Tops Hoffenheim in First Leg of Champions Playoff</a></li>
+              <li>home</li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
             </ul>
           </div>
         </div>

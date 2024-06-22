@@ -9,19 +9,16 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-100 py-4 border-b border-gray-300">
+    <header className="bg-gray-100 py-2 border-b border-gray-300 container mx-auto px-9">
       <div className="container mx-auto flex justify-between items-center px-4">
-        <h1 className="text-4xl font-bold">The Newspaper</h1>
+        <p className=" font-bold">The Newspaper</p>
         <nav className="hidden md:block">
           <ul className="flex space-x-4">
-            <li><a href="#" className="hover:text-blue-500">Home</a></li>
-            <li><a href="#" className="hover:text-blue-500">Politics</a></li>
-            <li><a href="#" className="hover:text-blue-500">Technology</a></li>
-            <li><a href="#" className="hover:text-blue-500">Sports</a></li>
-            <li><a href="#" className="hover:text-blue-500">Fashion</a></li>
-            <li><a href="#" className="hover:text-blue-500">Food</a></li>
-            <li><a href="#" className="hover:text-blue-500">Shortcodes</a></li>
-            <li><a href="#" className="hover:text-blue-500">Contact</a></li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
           </ul>
         </nav>
         <div className="md:hidden">
@@ -35,14 +32,11 @@ const Header = () => {
       {isMenuOpen && (
         <nav className="md:hidden">
           <ul className="flex flex-col space-y-2 mt-4 px-4">
-            <li><a href="#" className="hover:text-blue-500">Home</a></li>
-            <li><a href="#" className="hover:text-blue-500">Politics</a></li>
-            <li><a href="#" className="hover:text-blue-500">Technology</a></li>
-            <li><a href="#" className="hover:text-blue-500">Sports</a></li>
-            <li><a href="#" className="hover:text-blue-500">Fashion</a></li>
-            <li><a href="#" className="hover:text-blue-500">Food</a></li>
-            <li><a href="#" className="hover:text-blue-500">Shortcodes</a></li>
-            <li><a href="#" className="hover:text-blue-500">Contact</a></li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
           </ul>
         </nav>
       )}
