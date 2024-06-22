@@ -1,29 +1,38 @@
 // src/components/BreakingNews.js
 import React from 'react';
-
+import NewsData from '../API/NewsData'
 const BreakingNews = () => {
   return (
-    <section className="py-8 border-b border-gray-300">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-4">Breaking News</h2>
-        <div className="flex flex-col md:flex-row">
-          <div className="md:w-2/3 md:pr-4 mb-4 md:mb-0">
-            <img src="https://via.placeholder.com/600x400" alt="Breaking News" className="mb-4 w-full"/>
-            <h3 className="text-2xl font-semibold mb-2">Get the Best Catering for Your Summer Wedding in Philly</h3>
+    <section className=" border-b ">
+      <div className="container ">
+          {
+            NewsData.slice(2,3).map((val,index)=>{
+            return(<>
+            <div className="" key={index}>
+            <img src={val.image} alt="Breaking News" className="w-full h-[500px] object-cover  grayscale"/>
+            <h3 className="text-2xl font-semibold py-5">{val.title}</h3>
             <p className="text-gray-600 mb-2">By Admin | July 9, 2024</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>{val.description}</p>
           </div>
-          <div className="md:w-1/3 md:pl-4">
-            <h4 className="text-xl font-semibold mb-4">Daily Feed</h4>
-            <ul className="space-y-2">
-              <li>home</li>
-            <li>home</li>
-            <li>home</li>
-            <li>home</li>
-            <li>home</li>
-            </ul>
+          </>)
+          })
+          }
+      </div>
+      <br/><hr/><br/>
+      <div>
+        <h2 className="text-3xl font-bold mb-2">More News</h2>
+          {
+            NewsData.slice(5,9).map((val,index)=>{
+            return(<>
+            <div className="py-5 px-3 hover:shadow-lg hover:bg-gray-100" key={index}>
+            <h3 className="text-lg font-semibold mb-2 ">{val.title}</h3>
+            <p className="text-gray-600 mb-2 text-sm">{val.category} | July 9, 2024</p>
+            <p className='line-clamp-2'>{val.description}</p>
+            <button className='bg-gray-800 text-white text-[12px] px-2 py-1 mt-2'>Read More</button>
           </div>
-        </div>
+          </>)
+          })
+          }
       </div>
     </section>
   );

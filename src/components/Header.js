@@ -9,16 +9,16 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-100 py-2 border-b border-gray-300 container mx-auto px-9">
+    <div className='bg-gray-100 fixed w-[100%] z-40' >
+      <header className=" py-2 border-b border-gray-300 container mx-auto px-9">
       <div className="container mx-auto flex justify-between items-center px-4">
         <p className=" font-bold">The Newspaper</p>
         <nav className="hidden md:block">
-          <ul className="flex space-x-4">
-            <li>home</li>
-            <li>home</li>
-            <li>home</li>
-            <li>home</li>
-            <li>home</li>
+          <ul className="flex space-x-4  text-sm">
+            <li>Home</li>
+            <li>About-Us</li>
+            <li>Contact-Us</li>
+            <li>Help</li>
           </ul>
         </nav>
         <div className="md:hidden">
@@ -41,6 +41,8 @@ const Header = () => {
         </nav>
       )}
     </header>
+    </div>
+    
   );
 };
 
