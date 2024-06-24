@@ -11,6 +11,7 @@ function App() {
     <div className="App font-serif">
       <Header/>
       <Layout/>
+      <Footer/>
     </div>
   );
 }

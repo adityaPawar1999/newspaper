@@ -14,11 +14,11 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-4">
         <p className=" font-bold">The Newspaper</p>
         <nav className="hidden md:block">
-          <ul className="flex space-x-4  text-sm">
-            <li>Home</li>
-            <li>About-Us</li>
-            <li>Contact-Us</li>
-            <li>Help</li>
+          <ul className="flex space-x-4  text-sm pointer">
+            <li className='text-gray-600 cursor-pointer hover:text-black hoover:font-bold'>Home</li>
+            <li className='text-gray-600 cursor-pointer hover:text-black hoover:font-bold'>About-Us</li>
+            <li className='text-gray-600 cursor-pointer hover:text-black hoover:font-bold'>Contact-Us</li>
+            <li className='text-gray-600 cursor-pointer hover:text-black hoover:font-bold'>Help</li>
           </ul>
         </nav>
         <div className="md:hidden">

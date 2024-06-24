@@ -70,4 +70,51 @@ const NewsData = [
         "category": "Health"
     }
 ]
-export default NewsData;
+
+ const Categories = [
+        {
+            id:0,
+            title:"Opinion"
+        },{
+            id:1,
+            title:"Travel"
+        },{
+            id:2,
+            title:"Entertainment"
+        },{
+            id:3,
+            title:"Sports"
+        },{
+            id:4,
+            title:"Health"
+        },{
+            id:5,
+            title:"World"
+        },{
+            id:6,
+            title:"Science"
+        },{
+            id:7,
+            title:"Technology"
+        },{
+            id:8,
+            title:"Business"
+        },{
+            id:9,
+            title:"Politics"
+        },{
+            id:10,
+            title:"Education"
+        },{
+            id:11,
+            title:"Environment"
+        },{
+            id:12,
+            title:"Fashion"
+        },{
+            id:13,
+            title:"Food"
+        },
+    ]
+
+export {NewsData , Categories};

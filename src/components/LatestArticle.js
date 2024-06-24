@@ -1,4 +1,5 @@
-import NewsData from '../API/NewsData'
+import {NewsData,Categories} from '../API/NewsData'
+
 const LatestArticle =() =>{
     return(<>
     <p className="text-lg font-extrabold">Latest Articles</p>
@@ -32,21 +33,13 @@ const LatestArticle =() =>{
         </div>
 
 <ul className="flex gap-4 text-center justify-center flex-wrap w-[100%]  py-3 ">
-    <li>World</li>
-    <li>Politics</li>
-    <li>Technology</li>
-    <li>Science</li>
-    <li>Health</li>
-    <li>Sports</li>
-    <li>Entertainment</li> 
-    <li>Travel</li>
-    <li>Opinion</li>
-    <li>Education</li>
-    <li>Environment</li>
-    <li>Fashion</li>
-    <li>Food</li>
-    <li>Business</li>
-
+    {
+                Categories .map((val,index)=>{
+                    return(<>
+                        <li className='text-gray-600 cursor-pointer hover:text-black hoover:font-extrabold'>{val.title}</li>
+                    </>)
+                })
+            }
 
         </ul>
         

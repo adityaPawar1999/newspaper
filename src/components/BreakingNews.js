@@ -1,6 +1,6 @@
 // src/components/BreakingNews.js
 import React from 'react';
-import NewsData from '../API/NewsData'
+import {NewsData} from '../API/NewsData'
 const BreakingNews = () => {
   return (
     <section className=" border-b ">
