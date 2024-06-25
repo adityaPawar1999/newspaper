@@ -9,9 +9,7 @@ const LatestArticle =() =>{
         {
             NewsData.slice(2,9).map((val,index)=>{
                 return(<>
-                    
                     <li className="py-2 text-sm font-thin hover:shadow-md p-1" key={index}>{val.title} <span className='bg-gray-800 text-white text-[10px] rounded-lg py-[1px] px-1'>{val.category}</span></li>
-                
                 </>)
             })
         }
