@@ -1,6 +1,5 @@
 import {Categories} from '../API/NewsData'
 const SubLinks = () =>{
-   
     return(
         <div className=" py-[50px]">
         <br/>
@@ -15,9 +14,6 @@ const SubLinks = () =>{
                     </>)
                 })
             }
-    
-
-
         </ul>
         <hr/>
         </div>

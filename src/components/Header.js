@@ -1,6 +1,4 @@
-// src/components/Header.js
 import React, { useState, useEffect } from 'react';
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,7 +24,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className={`fixed w-full z-40 font-bold transition-all duration-300 ease-in-out  ${isScrolled ? ' backdrop-filter backdrop-blur-lg font-bold' : 'bg-gray-100 text-black'}`}>
+    <div className={`fixed w-full z-40 font-bold transition-all duration-300 ease-in-out  ${isScrolled ? ' backdrop-filter backdrop-blur-lg font-bold' : 'bg-black text-white'}`}>
       <header className="py-2 border-b border-gray-300 container mx-auto px-9">
         <div className="container mx-auto flex justify-between items-center px-4">
           <p className="font-bold">The Newspaper</p>
@@ -60,5 +58,4 @@ const Header = () => {
     </div>
   );
 };
-
 export default Header;

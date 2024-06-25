@@ -11,11 +11,11 @@ const Layout = () => {
       <SubLinks />
       <br />
 
-      <div className="block lg:grid lg:grid-cols-12 gap-1">
+      <div className="block md:hidden lg:grid lg:grid-cols-12 gap-1">
         <div className="lg:col-span-2  p-4 hidden lg:block">
           <LatestArticle/>
         </div>
-        <div className="col-span-12 lg:col-span-8 p-4">
+        <div className="  col-span-12 lg:col-span-8 p-4">
           <BreakingNews/>
         </div>
         <div className="lg:col-span-2  p-4 hidden lg:block">

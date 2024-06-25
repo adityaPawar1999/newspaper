@@ -1,4 +1,3 @@
-// src/components/FeaturedStories.js
 import React from 'react';
 import {NewsData} from '../API/NewsData';
 

@@ -1,4 +1,3 @@
-// src/components/BreakingNews.js
 import React from 'react';
 import {NewsData} from '../API/NewsData'
 const BreakingNews = () => {
@@ -37,5 +36,4 @@ const BreakingNews = () => {
     </section>
   );
 };
-
 export default BreakingNews;
