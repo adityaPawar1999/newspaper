@@ -4,7 +4,8 @@ TimesNow is a modern, responsive newspaper website built with React and Tailwind
 
 ## Demo
 
-Check out the live demo of the TimesNow newspaper website [here](#).
+Check out the live demo of the TimesNow newspaper website 
+https://melodic-dango-30218b.netlify.app
 
 ## Table of Contents
 
