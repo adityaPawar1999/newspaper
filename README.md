@@ -41,6 +41,7 @@ HomePage.js: The main landing page displaying news articles.
    ```bash
    git clone https://github.com/adityaPawar1999/newspaper.git
    cd newspaper
+   npm install
 
 
 ## Contributing
